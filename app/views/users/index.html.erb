@@ -1,0 +1,6 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Users</h1>
+<%= render partial: 'users', locals: { users: @users } %>
+
+<%= link_to "New user", new_user_path %>
